@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+body{
+    
+    margin-left: 100px;
+    font-family: 'Space Mono', monospace;
+    max-width: 1300px;
+    background-color: black;
+    
+}
+
+h1{
+    
+    margin-top: 150px;
+    margin-bottom: 175px;
+}
+
+p{
+    font-size: 14px;
+    color: white;
+    width: 400px;
+    margin-bottom: 0px;
+}
+
+.image1{
+    
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 1200px;
+}
+
+.image2{
+    
+    padding-bottom: 20px;
+    width: 630px;
+    
+    
+}
+
+.link1{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    width: 630px;
+    color: black;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.image3{
+     
+    margin-top: 100px;
+    width: 1100px;
+    padding-bottom: 20px;
+    
+}
+
+.link2{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    width: 1100px;
+    color: black;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.image4{
+    
+    width: 1200px;
+    margin-bottom: 100px;
+}
+
+h2{
+    color: white;
+    max-width: 1100px;
+    font-size: 24px;
+    padding: 0px;
+    margin-bottom: 50px;
+    border-bottom: 3px;
+}
+
+footer{
+    
+margin-top: 80px;
+padding-top: 30px;
+padding-left: 30px;
+padding-bottom: 30px;
+width: 1100px;
+height: 120px;
+background-color: #1A1A1A;
+    
+}
+
+a{
+    color: darkgrey;
+    
+}
+
+@media(max-width: 720px){
+    
+    header, section{
+        padding: 10px 0px 10px 20px;
+    }
+    
+    body{
+        padding: 0;
+        font-size: 16px;
+    }
+    
+    h2{
+        font-size: 24px;
+    }
+    
